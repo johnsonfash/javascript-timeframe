@@ -48,7 +48,7 @@ import timeFrame from 'javascript-timeframe'
 const date = new timeFrame('2020-05-17T03:24:00');
 //const date = new timeFrame(1589682240); unix
 
-date.startDate('2020-01-10T04:04:05');
+date.startingDate('2020-01-10T04:04:05');
 
 // date.language('es');  spanish
 
@@ -63,7 +63,7 @@ console.log( date.unix() );
 
 `new timeFrame()`  accepts all argument that a regular Date method can, including unix time digit.
 
-if you do not specify a `startDate`, timeFrame automatically uses the current time for comparison.
+if you do not specify a `startingDate`, timeFrame automatically uses the current time for comparison.
 
 # Other functionality
 
