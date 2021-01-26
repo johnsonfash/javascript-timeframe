@@ -1,6 +1,6 @@
 {
   "name": "javascript-timeframe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Localize date formatting, both in the past and present in human readable format, i.e 2 minutes ago, in 5 years etc.",
   "main": "src/timeframe.js",
   "directories": {
