@@ -113,9 +113,9 @@ const date = new timeFrame('2020-05-17T23:24:00');
 
 # Locales
 
-You can alsocformat date and time in your local language without the use of a library.
+You can also format date and time in your local language without the use of a library.
 
-If no argument is matched, the "default language" is used, and the default language is `"en"` by default.
+If no argument is matched, the "default language" is used, and the default language is `"en"`.
 
 ```javascript
 const date = new timeFrame('2020-05-17T03:24:00');
