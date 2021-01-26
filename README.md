@@ -109,7 +109,7 @@ const date = new timeFrame('2020-05-17T23:24:00');
 
 # Locales
 
-Library lets you format date and time in your local language.
+You can alsocformat date and time in your local language without the use of a library.
 
 If no argument is matched, the "default language" is used, and the default language is `"en"` by default.
 
