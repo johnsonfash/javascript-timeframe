@@ -22,7 +22,7 @@ npm install javascript-timeframe --save
 
 **Option B. Use CDN**
 
-You can load timeline directly from jsDelivr CDN.
+You can load timeframe directly from jsDelivr CDN.
 
 `https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.js`
 
