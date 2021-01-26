@@ -1,6 +1,6 @@
 class timeFrame {
     constructor() {
-      this.date = this.#unixChecker(arguments);
+      this.date = this.unixChecker(arguments);
       this.startDate = Date.now();
       this.lang = 'en';
     }
@@ -8,12 +8,12 @@ class timeFrame {
       this.lang = locale;
     }
     startingDate() {
-      this.startDate = this.#unixChecker(arguments);
+      this.startDate = this.unixChecker(arguments);
     }
     now() {
       return Date.now();
     }
-    #unixChecker(data) {
+    unixChecker(data) {
       if (Number.isInteger(data[0]) && data[0].toString().length == 10) {
         return new Date(data[0]*1000);
       } else {
