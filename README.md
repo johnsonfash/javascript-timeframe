@@ -43,7 +43,7 @@ Copy the [timeframe.js](https://github.com/johnerry/javascript-timeframe/tree/ma
 # Use
 
 ```javascript
-import timeFrame from 'javascript-timeframe'
+import {timeFrame} from 'javascript-timeframe'
 
 const date = new timeFrame('2020-05-17T03:24:00');
 //const date = new timeFrame(1589682240); unix
