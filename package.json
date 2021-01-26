@@ -1,0 +1,34 @@
+{
+  "name": "javascript-timeframe",
+  "version": "1.0.0",
+  "description": "Localize date formatting, both in the past and present in human readable format, i.e 2 minutes ago, in 5 years etc.",
+  "main": "src/timeframe.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnerry/javascript-timeframe.git"
+  },
+  "keywords": [
+    "javascript",
+    "timeago",
+    "moment.js",
+    "replacement",
+    "moment.js",
+    "in",
+    "75",
+    "lines",
+    "of",
+    "code"
+  ],
+  "author": "Tosin Fashanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnerry/javascript-timeframe/issues"
+  },
+  "homepage": "https://github.com/johnerry/javascript-timeframe#readme"
+}
