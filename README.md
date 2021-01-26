@@ -93,6 +93,10 @@ const date = new timeFrame('2020-05-17T23:24:00');
  console.log ( date.hours().long(), date.hours().short() );
  // 23, 11
  //returns hours in passed argument
+
+  console.log ( date.ampm() );
+ // pm
+ //returns am or pm in passed argument
  
  console.log( date.day() );
  // 17
