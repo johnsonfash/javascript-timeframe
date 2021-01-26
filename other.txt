@@ -1,0 +1,10 @@
+var date = new timeFrame('2020-05-17T03:24:00');
+date.language('en');
+// date.defaultStartingTime();
+// console.log(date.moment());
+console.log(date.moment());
+console.log(date.ampm());
+
+
+var date2 = new timeFrame(1611257134527);
+console.log(date2.moment());
