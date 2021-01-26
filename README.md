@@ -32,7 +32,7 @@ For example, place this in your HTML:
 <script src="https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.js"></script>
 ```
 
-Option C. Use CDN
+**Option C. Copy code from file**
 
 Copy the [timeframe.js](https://github.com/johnerry/javascript-timeframe/tree/master/src/timeframe.js) file containing only few lines of code to your project, and load it.
 
