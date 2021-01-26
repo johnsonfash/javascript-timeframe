@@ -125,7 +125,7 @@ date.language('es');  // Spanish
 date.language('de');  // German
 
 date.language('th');  // Thai
-
+  // hace 8 meses
   // search for your language short code and pass it in. The last language code passed will be used.
 ```
 
