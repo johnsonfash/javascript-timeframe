@@ -115,16 +115,16 @@ If no argument is matched, the "default language" is used, and the default langu
 
 ```javascript
 const date = new timeFrame('2020-05-17T03:24:00');
-
-date.language('en'); // English
   
-date.language('ru'); // Russian
+date.language('en'); // English
 
-date.language('es');  // Spanish
+date.language('ru'); // Russian
 
 date.language('de');  // German
 
 date.language('th');  // Thai
+
+date.language('es');  // Spanish
   // hace 8 meses
   // search for your language short code and pass it in. The last language code passed will be used.
 ```
