@@ -63,7 +63,7 @@ console.log( date.unix() );
 
 `new timeFrame()`  accepts all argument that a regular Date method can, including unix time digit.
 
-if you do not specify a `startDate`, timeFrame automatically uses the current time for comparison.
+if you do not specify a `startingDate`, timeFrame automatically uses the current time for comparison.
 
 # Other functionality
 
@@ -141,4 +141,8 @@ const date = new timeFrame('2021-05-17T03:24:00');
 
 # License
 
+<<<<<<< HEAD
 [MIT](https://github.com/johnerry/javascript-timeframe/tree/master/LICENSE)
+=======
+[MIT](https://github.com/johnerry/javascript-timeframe/master/LICENSE)
+>>>>>>> fefc0d9008704f8661efb0afbcd24ced7cc9f9a7
