@@ -24,17 +24,17 @@ npm install javascript-timeframe --save
 
 You can load timeline directly from jsDelivr CDN.
 
-`https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.min.js`
+`https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.js`
 
 For example, place this in your HTML:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.js"></script>
 ```
 
 Option C. Use CDN
 
-Copy the [timeframe.js](https://github.com/johnerry/timeframe/src/timeframe.js) file containing only few lines of code to your project, and load it.
+Copy the [timeframe.js](https://github.com/johnerry/javascript-timeframe/tree/master/src/timeframe.js) file containing only few lines of code to your project, and load it.
 
 ```html
 <script src="timeframe.js"></script>
@@ -43,12 +43,12 @@ Copy the [timeframe.js](https://github.com/johnerry/timeframe/src/timeframe.js) 
 # Use
 
 ```javascript
-import timeFrame from 'javascript-timeframe'
+import {timeFrame} from 'javascript-timeframe'
 
 const date = new timeFrame('2020-05-17T03:24:00');
 //const date = new timeFrame(1589682240); unix
 
-date.startDate('2020-01-10T04:04:05');
+date.startingDate('2020-01-10T04:04:05');
 
 // date.language('es');  spanish
 
@@ -141,4 +141,4 @@ const date = new timeFrame('2021-05-17T03:24:00');
 
 # License
 
-[MIT](https://github.com/johnerry/javascript-timeframe/master/LICENSE)
+[MIT](https://github.com/johnerry/javascript-timeframe/tree/master/LICENSE)
