@@ -24,17 +24,17 @@ npm install javascript-timeframe --save
 
 You can load timeline directly from jsDelivr CDN.
 
-`https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.min.js`
+`https://github.com/johnerry/javascript-timeframe/tree/master/src/timeframe.min.js`
 
 For example, place this in your HTML:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/src/timeframe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/johnerry/javascript-timeframe/tree/master/src/timeframe.min.js"></script>
 ```
 
 Option C. Use CDN
 
-Copy the [timeframe.js](https://github.com/johnerry/timeframe/src/timeframe.js) file containing only few lines of code to your project, and load it.
+Copy the [timeframe.js](https://github.com/johnerry/javascript-timeframe/tree/master/src/timeframe.js) file containing only few lines of code to your project, and load it.
 
 ```html
 <script src="timeframe.js"></script>
